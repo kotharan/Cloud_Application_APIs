@@ -5,7 +5,8 @@
   "main": "test.js",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
   },
   "devDependencies": {
     "figlet": "^1.2.0",
