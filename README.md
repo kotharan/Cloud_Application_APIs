@@ -1,6 +1,8 @@
 # Cloud_Application_APIs
 APIs for a Yelp like application, instructions below will give you a better idea of what this code consist of.
 
+## test.js is the server filer
+
 
 The goals of this assignment are to have you practice designing a RESTful API from an application description, to begin implementing endpoints for the API you designed, and to write an OpenAPI specification for the API you implemented.  The assignment has a few different parts, which are outlined below.
 
