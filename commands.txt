@@ -1,0 +1,63 @@
+1. List of Businesses ::                               
+curl "http://localhost:8000/businesses"
+
+2. Adding a business ::
+curl -X POST -H 'Content-Type:application/json' -d '{"bname":"blah","baddress":"123","bcity":"Corvallis","bstate":"OR","bzip":"09090","bphone":12434,"bweb":"http://hello.com","bmail":"andn@dad.com"}' http://localhost:8000/businesses
+
+3. Updating a business info :
+curl -X PUT -H 'Content-Type:application/json' -d '{"bname":"blah","baddress":"123","bcity":"Corvallis","bstate":"OR","bzip":"09090","bphone":13345,"bweb":"http://hello.com","bmail":"andn@dad.com"}' http://localhost:8000/businesses/2
+
+4. To Delete a specific business:
+curl -X DELETE "http://localhost:8000/businesses/2"
+
+5. To print all the business with their info {for the clients}:
+curl "http://localhost:8000/user"
+
+6. To get specific detail about a business with reviews and pictures
+curl "http://localhost:8000/user/4/review"
+
+7. Adding a review from the user
+curl -X POST -H 'Content-Type: application/json' -d '{"bstar":"5","bdollar":"4"}' http://localhost:8000/user/4/addreview
+
+8. To update a user star feedback and dollar feedback
+curl -X PUT -H 'Content-Type: application/json' -d '{"bstar":"4","bdollar":"4"}' http://localhost:8000/user/4/review
+
+9. To delete a feedback
+ curl -X DELETE "http://localhost:8000/user/2/review"
+
+10. To upload an image
+curl -X POST -H 'Content-Type: application/json' -d '{"bphoto":"SECOND.jpeg","caption":"Yes,THIS IS THE NEW CAPTION"}' http://localhost:8000/user/0/0
+
+11. To delete a photo
+curl -X DELETE "http://localhost:8000/user/2/0"
+
+12. Get category of a business
+curl http://localhost:8000/businesses/1/category
+
+13. Get the business names of a specific owner
+curl http://localhost:8000/mybusinesses/1
+
+14. To view owner specific reviews
+curl http://localhost:8000/myreviews/1
+
+15. To view owner specific uploaded photos
+curl http://localhost:8000/myphotos/2
+
+16.  To view all the business categories
+curl http://localhost:8000/business/categories
+
+17. To add category and subcategories
+curl -X POST -H 'Content-Type: application/json' -d '{"category":"Bar","type0":"Vodka","type1":"Taqella","type2":"Rum","type3":"Gin and Tonic"}' http://localhost:8000/business/addcategory
+
+18. To delete a specific category and subcategories  as an admin
+curl -X DELETE "http://localhost:8000/business/categories/0"
+
+ ----- To view that it worked paste " curl http://localhost:8000/businesses/0/category "
+
+19. To list all subcategories associated with a given category
+curl http://localhost:8000/subcategories/1
+
+20. To modify category and subcategories
+curl -X PUT -H 'Content-Type: application/json' -d '{"category":"Bar","type":"Vodka","type1":"Taqella","type2":"Rum","type3":"Gin and Tonic"}' http://localhost:8000/business/0/categories
+
+  -- To view the changes paste "	curl http://localhost:8000/businesses/0/category	"

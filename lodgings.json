@@ -1,0 +1,48 @@
+
+[
+  { "id":1,
+      "owner": 1,
+    "bname":"Evergreen",
+    "baddress":"426 Nw 11th",
+    "bcity": "Corvallis",
+    "bstate":"OR",
+    "bzip":"973300",
+    "bphone":"564654"
+  },
+  {  "id":2,
+     "owner": 2,
+    "bname": "Shalimaar",
+    "baddress": "26 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"97330",
+    "bphone":"5468725"
+  },
+  {  "id":3,
+     "owner": 3,
+    "bname": "Foodplaza",
+    "baddress": "6 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"37333",
+    "bphone":"546875"
+  },
+  {  "id":4,
+      "owner": 1,
+    "bname": "ThaiChilli",
+    "baddress": "258 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"97552",
+    "bphone":"5460525"
+  },
+  {  "id":5,
+      "owner": 4,
+    "bname": "DownwardDog",
+    "baddress": "55 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"97665",
+    "bphone":"5478725"
+  }
+]

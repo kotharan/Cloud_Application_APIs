@@ -1,0 +1,27 @@
+{
+  "name": "cloud_application_development",
+  "version": "1.0.0",
+  "description": "This is a practice application ",
+  "main": "test.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "figlet": "^1.2.0",
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test",
+    "dev": "npx nodemon  \n \tNodemon has been started enjoyyy"
+  },
+  "keywords": [
+    "json",
+    "package",
+    "cloud",
+    "application"
+  ],
+  "author": "Anand Kothari <kotharan@oregonstate.edu>",
+  "license": "ISC"
+}

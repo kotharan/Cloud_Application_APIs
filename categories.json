@@ -1,0 +1,47 @@
+[
+  { "cid": 1,
+    "category": "Restaurant",
+    "subcategories" : [
+      {"type": "Brewpub"},
+      {"type": "Chinese"},
+      {"type": "Mexican"},
+      {"type": "Indian"}
+    ]
+},
+  {  "cid": 2,
+    "category": "Shopping",
+    "subcategories" : [
+      {"type": "Grocery store"},
+      {"type": "Flowers"},
+      {"type": "Food"},
+      {"type": "Clothing"}
+    ]
+},
+  {  "cid": 3,
+    "category": "Arts and Entertainment",
+    "subcategories" : [
+      {"type": "Movie theater"},
+      {"type": "Museum"},
+      {"type": "Art Gallery"},
+      {"type": "Fun Park"}
+    ]
+},
+{    "cid": 4,
+  "category": "Restaurant and Bar",
+  "subcategories" : [
+   {"type": "Brewpub"},
+   {"type": "Chinese"},
+   {"type": "Mexican"},
+   {"type": "Indian"}
+  ]
+},
+{    "cid": 5,
+ "category": "Shopping and Grocerries",
+ "subcategories" : [
+    {"type": "Grocery store"},
+    {"type": "Flowers"},
+    {"type": "Food"},
+    {"type": "Clothing"}
+ ]
+}
+]

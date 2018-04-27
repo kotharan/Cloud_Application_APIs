@@ -1,0 +1,93 @@
+[
+  { "id":1,
+       "owner":1,
+    "bname":"Evergreen",
+    "baddress":"426 Nw 11th",
+    "bcity": "Corvallis",
+    "bstate":"OR",
+    "bzip":"973300",
+    "bphone":"564654",
+    "reviews":[{
+    "bstar": "4",
+    "bdollar":"2",
+    "breview":" They have amazing variety of dishes to try"
+    }],
+    "photo":[{
+     "pid": 1,
+    "bphoto":"capture.jpg",
+    "caption": " This is a sample image of business id 1" }]
+
+  },
+  {  "id":2,
+       "owner":2,
+    "bname": "Shalimaar",
+    "baddress": "26 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"97330",
+    "bphone":"5468725",
+    "reviews":[{
+    "bstar": "4",
+    "bdollar":"5",
+    "breview":" They have amazing variety of dishes to try"
+    }],
+    "photo":[{
+     "pid": 2,
+    "bphoto":"xyz.jpg",
+    "caption": " This is a sample imag of business id 2" }]
+  },
+  {  "id":3,
+       "owner":1,
+    "bname": "Foodplaza",
+    "baddress": "6 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"37333",
+    "bphone":"546875",
+    "reviews":[{
+    "bstar": "3",
+    "bdollar":"1",
+    "breview":" They have amazing variety of dishes to try"
+    }],
+    "photo":[{
+     "pid": 3,
+    "bphoto":"abc.jpg",
+    "caption": " This is a sample image of business id 3" }]
+  },
+  {  "id":4,
+       "owner":1,
+    "bname": " ThaiChilli",
+    "baddress": "258 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"97552",
+    "bphone":"5460525",
+    "reviews":[{
+    "bstar": "2",
+    "bdollar":"1",
+    "breview":" Give it a try."
+    }],
+    "photo":[{
+     "pid": 4,
+    "bphoto":"cde.jpg",
+    "caption": " This is a sample image of business id 4" }]
+  },
+  {  "id":5,
+       "owner":3,
+    "bname": "DownwardDog",
+    "baddress": "55 Nw 11th",
+    "bcity": "Corvallis",
+     "bstate":"OR",
+    "bzip":"97665",
+    "bphone":"5478725",
+    "reviews":[{
+    "bstar": "4",
+    "bdollar":"4",
+    "breview":" Don't eat from here"
+    }],
+    "photo":[{
+     "pid": 4,
+    "bphoto":"mnc.jpg",
+    "caption": " This is a sample image of business id 5" }]
+  }
+]
